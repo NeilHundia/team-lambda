@@ -1,5 +1,5 @@
 import React from "react";
-import "../Solarbot.css";
+import "./Solarbot.css";
 
 const Falcon9Page = () => {
   const scrollToTop = () => {

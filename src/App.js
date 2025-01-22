@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import SolarBot from "./Components/SolarBot";
-import Navbar from './Navbar';
+import Navbar from './Components/Navbar';
 
 function App() {
   return (
