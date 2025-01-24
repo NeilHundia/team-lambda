@@ -1,15 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
-import SolarBot from "./Components/SolarBot";
-import Navbar from './Components/Navbar';
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import HomePage from "./Components/Homepage"; // Import the Home Page
+import SolarBot from "./Components/SolarBot"; // Import the Product Page
 
-function App() {
+const App = () => {
   return (
-    <div>
-      <Navbar />
-      <SolarBot />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<HomePage />} /> {/* Home Page */}
+        <Route path="/products" element={<SolarBot />} /> {/* Products Page */}
+      </Routes>
+    </Router>
   );
-}
+};
 
 export default App;

@@ -3,8 +3,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: white;
-    padding: 15px 30px;
+    background-color: rgb(0, 0, 0);
+    padding: 20px 30px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
   
@@ -14,8 +14,9 @@
   }
   
   .company-name {
-    color: #333;
+    color: #ffffff;
     margin: 0;
+    font-size: 25px;
   }
   
   .navbar-right {
@@ -26,7 +27,7 @@
   .nav-btn {
     background: none;
     border: none;
-    color: #000000;
+    color: #ffffff;
     font-size: 16px;
     cursor: pointer;
     transition: color 0.2s;

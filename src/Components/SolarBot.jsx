@@ -1,5 +1,6 @@
 import React from "react";
 import "./Solarbot.css";
+import Navbar from "./Navbar";
 
 const Falcon9Page = () => {
   const scrollToTop = () => {
@@ -8,6 +9,7 @@ const Falcon9Page = () => {
 
   return (
     <div className="falcon9-page">
+      <Navbar />
       {/* Hero Section */}
       <section className="hero-section">
         <div className="hero-content">
@@ -52,7 +54,7 @@ const Falcon9Page = () => {
           </p>
         </div>
         <img
-          src="https://static.vecteezy.com/system/resources/thumbnails/040/995/143/small/ai-generated-fields-of-solar-panels-and-systems-to-produce-green-electricity-ai-generated-photo.jpg"
+          src="./2.jpeg"
           alt="Automated Cleaning"
           className="feature-image"
         />
@@ -85,7 +87,7 @@ const Falcon9Page = () => {
           </p>
         </div>
         <img
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Foto_aére_de_solnovas_y_torre_junio_2010.jpg/340px-Foto_aére_de_solnovas_y_torre_junio_2010.jpg"
+          src="./2.jpeg"
           alt="Durability"
           className="feature-image"
         />
