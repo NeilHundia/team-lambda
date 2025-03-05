@@ -9,11 +9,11 @@ const Falcon9Page = () => {
 
   return (
     <div className="falcon9-page">
-      <Navbar />
+      {/* <Navbar /> */}
       {/* Hero Section */}
       <section className="hero-section">
         <div className="hero-content">
-          <h1>SOLARIS V3</h1>
+          <h1 className="heading">SOLARIS V3</h1>
           <p>
             Revolutionizing solar panel maintenance with advanced cleaning
             technology.
@@ -110,7 +110,7 @@ const Falcon9Page = () => {
 
       {/* Footer Section */}
       <footer className="footer">
-        <h4 className="footer-text">© 2025 Renergy</h4>
+        <h4 className="footer-text">© 2025 RenergyX</h4>
         <button className="go-to-top-button" onClick={scrollToTop}>
           Go to Top
         </button>

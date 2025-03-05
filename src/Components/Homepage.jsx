@@ -2,6 +2,7 @@ import React from "react";
 import "./Homepage.css"; // Import styling for the home page
 import { useNavigate } from "react-router-dom"; // For navigation to the product page
 import Navbar from "./Navbar";
+import Aboutus from "./Aboutus";
 
 const HomePage = () => {
   const navigate = useNavigate();
@@ -12,7 +13,7 @@ const HomePage = () => {
 
   return (
     <div>
-        <Navbar />
+        {/* <Navbar /> */}
         <div className="home-page">
         {/* <Navbar /> */}
       <div className="hero-container">
@@ -31,6 +32,7 @@ const HomePage = () => {
         </div>
       </div>
     </div>
+    <Aboutus/>
     </div>
   );
 };

@@ -1,0 +1,68 @@
+/* OurTeam.css */
+.our-team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    /* background-color: white; */
+    color: rgb(255, 255, 255);
+  }
+  
+  .our-team h1, .our-team h2 {
+    color: #2563EB; /* Blue color */
+    font-weight: bold;
+  }
+  
+  .our-team h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .team-info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 800px;
+  }
+  
+  .team-info div {
+    text-align: center;
+  }
+  
+  .team-info h2 {
+    font-size: 1.5rem;
+  }
+  
+  .domain-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 1rem;
+  }
+  
+  .domain-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+  
+  .domain-icon {
+    width: 1rem;
+    height: 1rem;
+    border: 2px solid #2563EB;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+  }
+  
+  .contact {
+    text-align: center;
+    margin-top: 3rem;
+  }
+  
+  .contact p {
+    font-size: 1.2rem;
+  }
+  
+  .contact a {
+    color: #2563EB;
+    text-decoration: none;
+  }
